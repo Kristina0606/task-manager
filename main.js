@@ -1,7 +1,9 @@
-import "lucide-static/font/lucide.css";
+import "lucide-static/font/Lucide.css";
 import "./style.css";
 
-import template from "./counter.hbs";
-import { compile } from "handlebars";
+import "./src/app.component";
 
 const root = document.getElementById("app");
+const app = document.createElement("my-app");
+
+root.append(app);
